@@ -2,6 +2,22 @@
 
 
 
+    // tailwind.config.js
+    module.exports = {
+      theme: {
+        extend: {
+          colors: {
+            'custom-orange': '#FF8C00', // Add a new custom color
+            'brand-primary': { // Add a new color with shades
+              100: '#E6F0FF',
+              500: '#007BFF',
+              900: '#003366',
+            },
+          },
+        },
+      },
+    };
+
 module.exports = {
   theme: {
     extend: {
