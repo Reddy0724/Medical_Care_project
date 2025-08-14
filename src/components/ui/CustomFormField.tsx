@@ -37,7 +37,7 @@ const RenderField = ({field, props}:{field:any;props:CustomProps}) =>{
  switch(fieldType){
   case FormFieldType.INPUT:
     return(
-      <div className="flex rounded-md border border-gray-300 bg-gray-900 ">
+      <div className="flex rounded-md border  border-gray-300 bg-gray-900 ">
         {iconSrc && (
           <Image  
           src={iconSrc}

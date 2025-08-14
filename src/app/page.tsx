@@ -24,7 +24,7 @@ export default function Home() {
           <PatientForm />
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-white xl:text-left">
-              © 2021 CarePluse
+              © 2021 CarePulse
             </p>
             <Link href="/?admin=true" className="text-green-500">
               Admin
